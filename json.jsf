@@ -5,15 +5,15 @@
 # Define colors
 
 =Idle
-=Comma
-=PairSep
-=Bracket	magenta
-=Brace		magenta
-=Number		cyan
-=String		cyan
-=StringEscape	cyan bold
-=Boolean	cyan
-=Null		cyan
+=Comma		fg_111
+=PairSep	fg_555
+=Bracket	fg_111
+=Brace		fg_111
+=Number		fg_244
+=String		fg_244
+=StringEscape	fg_055 bold
+=Boolean	fg_244
+=Null		fg_244
 
 =Bad		red bold inverse # Syntax errors detected by the highlighter
 

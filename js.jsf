@@ -3,33 +3,34 @@
 # Define colors
 
 =Idle
-=Comment	green
-=CommentLabel	bold green
-=Constant	cyan
-=String		cyan
-=StringEscape	bold cyan
-=Regexp		cyan
-=RegexpEscape	bold cyan
-=RegexpOptions	cyan
-=Number		cyan
-=Type		bold
-=CustomType
-=Keyword	bold
-=Global		bold
-=Exports
-=ExportItem
-=Operator	bold
-=Bad		inverse bold red
-=Brace		magenta
-=Assign		bold
-=Paren
-=Bracket
-=Semicolon
-=Comma
-=PropSep
-=Syntax
+=Comment	fg_010
+=CommentLabel	fg_030 bold
+=Paren		fg_111
+=Bracket	fg_111
+=Semicolon	fg_111
+=Comma          fg_111
+=PropSep        fg_111
+=Exports        fg_112
+=ExportItem     fg_225
+=Operator
 =Ident
+=Keyword
+=Global		fg_444 bold
+=Brace		fg_331
+=Assign		fg_331 bold
 =Method
+=Type
+=CustomType
+=Constant       fg_343
+=Number		fg_244
+=String		fg_244
+=Regexp		fg_244
+=RegexpOptions	fg_255
+=Syntax		fg_555
+=StringEscape	fg_055 bold
+=RegexpEscape	fg_155 bold
+
+=Bad		red bold inverse
 
 # from html.jsf to support embedded languages
 =TagEdge	green
