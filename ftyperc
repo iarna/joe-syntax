@@ -847,6 +847,9 @@
  Markdown
 *.md
 -syntax md
+-tab 4
+-istep 4
+-indentc 32
 
  YAML
 *.yml
